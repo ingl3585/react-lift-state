@@ -80,7 +80,7 @@ This is a very important concept to keep in mind as a `re-render` can also initi
 - State is assigned using the `useState` or `useReducer` hook
 - The State value is never updated directly
 - The State value is only updated using it's corresponding `setState` function
-- The state is never  must always be overwritten with a new value 
+- The state value must always be overwritten with a new value 
 - The State value can be assigned any data type
 
 
@@ -191,7 +191,7 @@ And now the design should update to look like:
 
 <hr>
 
-### Working With useState
+### The useState Hook
 
 In order to add state to the `Counter` Component we will first need to import the `useState` Hook from `React`. `useState` is one of the 3 Basic Hooks as per the Official React Doc.
 
@@ -253,8 +253,6 @@ Keep in mind however that there is way more code out there written in the previo
 Since we will be working with `Hooks` solely in this class let's take a minute to review the following React Docs:
 
 - [Hooks API Reference](https://reactjs.org/docs/hooks-reference.html) - all the available Hooks
-- [useState Hook](https://reactjs.org/docs/hooks-state.html) - useState specifically
-
 
 <hr>
 
@@ -282,12 +280,6 @@ Since we are familiar with `Object Destructuring` let's use it to elicit the val
 
 ```js
 import React, { useState } from 'react';
-```
-
-Essentially we are doing something similar to the following but this would need to be on a separate line as `React` would first need to be imported. 
-
-```js
-import useState from React.useState
 ```
 
 Just so that we get a better idea of what `useState` actually is let's add a console log.
@@ -320,7 +312,7 @@ Let's take a moment to once again review the `rules` of `useState` and include s
 
 - the State value is never updated directly
 - the State value is only updated using it's corresponding `setState` function
-- the state is never  must always be overwritten with a new value 
+- the state value must always be overwritten with a new value 
 
 :star: - Best Practices
 
