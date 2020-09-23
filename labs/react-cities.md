@@ -51,6 +51,12 @@ For this exercise you will do the following:
 - Place a green border around the image to indicate that it is the current image being displayed.
 - Any other previously active image will have it's border color removed
 
+**Hint:** Since you already know how to assign a className AND know about ternary operators, try combining the two together and assign a class based on the result of a ternary operator. 
+
+OR
+
+**Hint:** Since you already know how to use the style prop  AND know about ternary operators, try combining the two together and assign a border based on the result of a ternary operator. 
+
 
 ## Bonus 1 - Traffic Light
 
