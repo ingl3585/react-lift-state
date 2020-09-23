@@ -1,6 +1,6 @@
 
 Title: Intro to State<br>
-Duration: 1.5hrs+ <br>
+Duration: 3hrs+ <br>
 Creator:  Joe Keohan<br>
 
 ---
