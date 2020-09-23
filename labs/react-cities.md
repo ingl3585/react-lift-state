@@ -39,6 +39,12 @@ For this exercise you will do the following:
 
 **Note:** All functionality must be placed within the App Component and no additional Components should be created for this solution to work. 
 
+**Hint** Try setting up state first and rendering the big image based on the value in state.  
+
+**Hint** Since you will be looping over an array of data, creating an image for each element and passing it the properties it needs, consider assigning the handleClick within the loop
+
+**Hint** Since you already have the value of the image src inside the loop perhaps you could pass the handleClick function the image url.  
+
 
 #### Bonus - Green Border
 
