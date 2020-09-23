@@ -46,7 +46,7 @@ For this exercise you will do the following:
 **Hint:** Since you already have the value of the image src inside the loop perhaps you could pass the handleClick function the image url.  
 
 
-#### Bonus - Green Border
+### Bonus - Green Border
 
 - Place a green border around the image to indicate that it is the current image being displayed.
 - Any other previously active image will have it's border color removed
