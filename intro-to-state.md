@@ -51,7 +51,6 @@ Props are a great way to pass data but have the following limitations:
 
 - Take a few minutes to think about and write your answers to the following questions:
   - What do we use `props` for?
-  - How does the receiving Component organize the `props` it is passed?
   - What limitations do `props` have?
   - Is there any best practice you can think of when creating a `prop`?
 
@@ -59,6 +58,11 @@ Props are a great way to pass data but have the following limitations:
 
 When asked slack your answer(s) in a thread created by the instructor
 
+<details><summary>Best Answer</summary>
+
+
+
+</details>
 <hr>
 
 ## Intro To State
