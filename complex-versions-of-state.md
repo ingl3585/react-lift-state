@@ -87,20 +87,6 @@ Let's start with creating a new instance of `useState` that will keep track of h
 const [resetCount, setResetCount] = useState(0);
 ```
 
-**React Dev Tools**
-
-Now that we have added a new instance of useState so let's take a look at `React DevTools` and confirm state is present and accounted for.
-
- If you highlight `Counter` it should look like the following:
-
-<img src="https://i.imgur.com/HvD9hbo.png" />
-
-Try incrementing the value a 4x times and you should both values eventually update.
-
-<img src="https://i.imgur.com/qMRuN3L.png" />
-
-One thing to note here is that each instance of state is merely represented by the word `State` and not which specific state it represents. 
-
 **Update handleReset**
 
 Since we will be keeping track of how many times the reset button is clicked it makes sense to call `setResetCount` in `handleReset`. 
@@ -125,6 +111,20 @@ The Counter app should look like the following now:
 
 Try clicking on `+/-` a few times and then the `Reset` button. Confirm that the functionality is working as expected.
 
+**React Dev Tools**
+
+Now that we have added a new instance of useState so let's take a look at `React DevTools` and confirm state is present and accounted for.
+
+ If you highlight `Counter` it should look like the following:
+
+<img src="https://i.imgur.com/HvD9hbo.png" />
+
+Try incrementing the value a 4x times and you should both values eventually update.
+
+<img src="https://i.imgur.com/qMRuN3L.png" />
+
+One thing to note here is that each instance of state is merely represented by the word `State` and not which specific state it represents. 
+
 <hr>
 
 #### <g-emoji class="g-emoji" alias="alarm_clock" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/23f0.png">⏰</g-emoji> Activity - 10min
@@ -146,9 +146,8 @@ Here is the basic syntax of writing an inline style.
 
 <hr>
 
-Add Solution here
 
-<!-- <details>
+<details>
 <summary>Solution</summary>
 
 ```js
@@ -186,7 +185,7 @@ const Counter = () => {
 };
 ```
 
-</details> -->
+</details>
 
 ### Limits To Our Design
 
