@@ -97,7 +97,9 @@ We can improve the drawing a bit to include what props will be passed down to th
 
 What might stand out is the props highlighted in green called `handleClick`.  This is the same `handleCLick` function used in App but now it's being passed down to the child.  
 
-When that function is called in the child Component it will be passed a value which is `lifted` back  to the parent.  That value is then used to update the `bigImage` state value, triggering a re-render and the new value for bigImage is passed back down to the `BigImage` Component. 
+When a function is passed and called in a child Component it will pass the value to the parent, also known as `lifting state`.  
+
+That value is then used to update the `bigImage` state value, triggering a re-render and the new value for `bigImage` is passed back down to the `BigImage` Component. 
 
 <img src="https://i.imgur.com/vwlWb2Z.png" width=600/>
 
@@ -116,7 +118,11 @@ Let's start with creating the BigImage Component.  Here are the steps we need to
 
 **Setup The Components**
 
-Create the file and setup the Component. This involves adding a parameter called props, copy/paste the existing HTML from App and then referencing the `props.image` key which will contain the image url. 
+Create the file and setup the Component. This involves the following:
+
+- adding a parameter called props
+- copy/paste the existing HTML from App
+- update the element to reference `props.image` 
 
 We could also make additional decisions such as passing down specific values for `id` and `alt` as to make this Component more reuseable, but we will leave those values alone for now and stay focused on the main value for the image src. 
 
@@ -145,7 +151,7 @@ import imagesArr from './imageData'
 import BigImage from './BigImage'
 ```
 
-Let's replace the HTML with the `<BigImage />` Component and also make sure to pass it a prop. 
+Let's replace the HTML with the `<BigImage />` Component and also make sure to pass it a prop called `image`. 
 
 In this case it will be: `<BigImage image={bigImage} />`
 
@@ -222,6 +228,8 @@ const SmallImage = (props) => {
 ```
 
 :thumbsup: Click on the thumbs up when your done.
+
+:walking: **Poll:** How do you feel about the material so far
 
 **Lifting State**
 

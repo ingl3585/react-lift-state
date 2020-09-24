@@ -361,6 +361,7 @@ const Counter = () => {
 
 </details> -->
 
+:walking: **Poll:** How do you feel about the material so far?
 
 ### Using an Array as the State Value
 
