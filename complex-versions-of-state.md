@@ -507,8 +507,6 @@ const styles = {
 
 [Solution Code](https://codesandbox.io/s/rctr-9-8-20-w02d04-counter-starter-forked-3o9ij?file=/src/Counter.js)
 
-[Solution Code]() - Provided after the demo
-
 You've learned quite a bit about React state.  Let's take a minute to review the `rules` and `best practices`
 
 :oncoming_police_car: - Rules 
