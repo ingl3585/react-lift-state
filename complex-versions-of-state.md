@@ -302,14 +302,15 @@ counterObj.count === 3 ? handleReset() : setCounterObj({
 
 Now it's your turn.
 
-- Update both `handleIncrement` and `handleRest` to use the new implementation of state. 
+- Update both `handleDecrement` and `handleRest` to use the new implementation of state. 
+
 :thumbsup: - Click on the thumbs up when you've implemented the solution
 
 <hr>
 
 Add Solution here
 
-<!-- <details>
+<details>
 <summary>Solution</summary>
 
 ```js
@@ -358,7 +359,7 @@ const Counter = () => {
 };
 ```
 
-</details> -->
+</details>
 
 :walking: **Poll:** How do you feel about the material so far?
 
