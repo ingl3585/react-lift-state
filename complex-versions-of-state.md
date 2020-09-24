@@ -505,7 +505,7 @@ const styles = {
 
 #### Here is the solution code from our in-class build
 
-<!-- [Solution Code](https://codesandbox.io/s/rctr-9-8-20-w02d04-counter-startersolution-gybkx?file=/src/Counter.js) -->
+[Solution Code](https://codesandbox.io/s/rctr-9-8-20-w02d04-counter-starter-forked-3o9ij?file=/src/Counter.js)
 
 [Solution Code]() - Provided after the demo
 
