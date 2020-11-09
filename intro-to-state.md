@@ -31,6 +31,8 @@ As with all human beings our `state` of mind can change on the fly which is almo
 
 Therefore updating an applications `state` is our control mechanism for how we update the UI.
 
+<img src="https://i.imgur.com/O0OwmJx.png" width=400px/>
+
 ## Props Recap
 
 So far we've worked with `props` and used them to pass values from a `parent` to a `child` Component. This pattern of passing data down will be consistent in React as the flow of data is `unidirectional` and always flows down.
